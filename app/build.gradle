@@ -83,4 +83,9 @@ dependencies {
     // utils
 
     implementation 'com.jakewharton.timber:timber:4.6.0'
+
+    implementation 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT'
+    implementation 'com.facebook.fresco:fresco:1.8.1'
+
+
 }

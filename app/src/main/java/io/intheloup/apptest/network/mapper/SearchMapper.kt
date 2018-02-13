@@ -11,7 +11,7 @@ object SearchMapper {
                     it.id ?: -1,
                     it.name ?: "",
                     it.images_url?.firstOrNull() ?: "",
-                    it.category?.name ?: ""
+                     "category"
             )
         } ?: emptyList()
     }

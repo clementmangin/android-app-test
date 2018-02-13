@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="io.intheloup.apptest.ui.SearchActivity">
 
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/item_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_cell_margin"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

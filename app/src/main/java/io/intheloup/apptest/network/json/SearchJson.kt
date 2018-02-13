@@ -7,8 +7,8 @@ class SearchJson(
     class PlaceJson(
             val id: Int? = null,
             val name: String? = null,
-            val images_url: List<String>? = null,
-            val category: CategoryJson? = null
+            val images_url: List<String>? = null
+//            val category: List<CategoryJson>? = null
     ) {
         class CategoryJson(val name: String? = null)
     }

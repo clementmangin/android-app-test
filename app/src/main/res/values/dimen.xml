@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_cell_margin">8dp</dimen>
+    <dimen name="list_cell_thumbnail_height">64dp</dimen>
+    <dimen name="list_cell_thumbnail_width">64dp</dimen>
+</resources>

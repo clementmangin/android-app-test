@@ -1,6 +1,7 @@
 package io.intheloup.apptest
 
 import android.app.Application
+import com.facebook.drawee.backends.pipeline.Fresco
 import timber.log.Timber
 
 class App : Application() {
@@ -17,5 +18,6 @@ class App : Application() {
         }
 
         App.dependencies = Dependencies()
+        Fresco.initialize(this)
     }
 }
